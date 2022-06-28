@@ -2,6 +2,7 @@ package com.example.codeapi
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.fragment.app.replace
 import com.example.codeapi.view.CodeListFragment
 
 class MainActivity : AppCompatActivity() {
