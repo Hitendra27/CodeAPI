@@ -10,7 +10,7 @@
         android:id="@+id/code_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#94A7AE"
+        android:background="#B3DEE5"
         tools:listitem="@layout/fragment_code"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

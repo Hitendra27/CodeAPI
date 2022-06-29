@@ -1,16 +1,18 @@
 package com.example.codeapi.network
 
 import androidx.transition.Slide
+import com.example.codeapi.model.ListOfCodes
+import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface CodeAPI {
 
     @GET(ACTIVE_ALERTS)
-    suspend fun getCodeList(
-        @Query("status")status.String="actual",
+    suspend fun getListOfCodes(
+        @Query("status")status:String="actual",
         @Query("message_type")type: String="alert"
-    ): Response<>
+    ): Response<ListOfCodes>
 
     companion object {
         const val BASE_URL = "https://kontests.net/api/"

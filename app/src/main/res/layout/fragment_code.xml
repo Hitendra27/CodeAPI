@@ -12,14 +12,14 @@
        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="2dp"
-        android:background="#C0A9BD">
+        android:background="#FFA101">
 
         <TextView
             android:id="@+id/code_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="displayName"
-            android:textColor="#64766A"
+            android:textColor="#31525B"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginTop="5dp"
@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="urlName"
-            android:textColor="#64766A"
+            android:textColor="#31525B"
             android:textSize="12sp"
             android:textStyle="bold"
             android:layout_marginTop="5dp"
@@ -47,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="siteName"
-            android:textColor="#64766A"
+            android:textColor="#31525B"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginTop="5dp"
